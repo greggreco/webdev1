@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+header {
+    padding:1rem;
+}
+h1 {
+    color: white;
+    background-color: violet;
+    font-family: 'Tourney';
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+img {
+    size: 1rem;
+}
+main {
+     scroll-margin-top: 5rem;
+}
+a {
+    position:fixed;
+    left: 100px;
+    top: 16px;
+}
+body {
+    background-image: url("https://web.archive.org/web/20090725134638/http://www.geocities.com/alancwwong/starspace.gif")
+}
+body {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+section4 {
+        position: absolute;
+        left: 500px;
+        top: 600px;
+}
+section5 {
+    position: absolute;
+    left: 200px;
+    top: 1455px;
+}
+footer {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
