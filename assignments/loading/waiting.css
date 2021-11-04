@@ -1,0 +1,15 @@
+.waiting{
+    background-color: rgba(0, 17, 255, 0);
+    margin: 28rem auto;
+    width: 2rem;
+    height: 2rem;
+    border: .3rem solid rgb(177, 177, 177);
+    border-radius: 50%;
+    border-top-color: rgb(228, 228, 228);
+    animation: spin 1s linear infinite;
+}
+@Keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}

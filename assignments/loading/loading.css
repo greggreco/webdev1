@@ -1,0 +1,19 @@
+.loading {
+    margin: 28rem auto;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #aaaaaa;
+    height: 30px;
+  }
+
+  .loading .loadinganim {
+    height: 100%;
+    width: 0%;
+    background-color: #cccccc;
+    animation: load forwards 3s;
+  }
+  
+  @keyframes load {
+    from {width: 0%;}
+    to {width: 100%;}
+  }
